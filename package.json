@@ -4,7 +4,14 @@
   "main": "index.js",
   "author": "Jee Wan Gue <jeewangue@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "get-sheet-names": "ts-node ./src/getSheetNames.ts",
+    "pick-sheet": "ts-node ./src/pickSheet.ts",
+    "update-sheet": "ts-node ./src/updateSheet.ts"
+  },
   "dependencies": {
-    "exceljs": "^4.4.0"
+    "exceljs": "^4.4.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
   }
 }
