@@ -1,0 +1,10 @@
+{
+  "name": "excel-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jee Wan Gue <jeewangue@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
